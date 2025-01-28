@@ -1,0 +1,7 @@
+{
+    "mappings": [
+        {"json_field": "id", "xml_fields": ["ID"], "transform": "to_int"},
+        {"json_field": "name", "xml_fields": ["FirstName", "LastName"], "transform": "concat_strings"},
+        {"json_field": "age", "xml_fields": ["DateOfBirth"], "transform": "age_from_dob"}
+    ]
+}

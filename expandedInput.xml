@@ -1,0 +1,22 @@
+<Patients>
+    <Patient ID="12345">
+        <FirstName>John</FirstName>
+        <LastName>Doe</LastName>
+        <DateOfBirth>1985-07-15</DateOfBirth>
+        <Address>
+            <Street>Main St</Street>
+            <City>Somewhere</City>
+            <State>OK</State>
+        </Address>
+    </Patient>
+    <Patient ID="67890">
+        <FirstName>Jane</FirstName>
+        <LastName>Smith</LastName>
+        <DateOfBirth>1992-03-22</DateOfBirth>
+        <Address>
+            <Street>First Ave</Street>
+            <City>Elsewhere</City>
+            <State>KS</State>
+        </Address>
+    </Patient>
+</Patients>
