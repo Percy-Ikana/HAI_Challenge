@@ -2,8 +2,8 @@
 - Ensure you have Go installed
 - clone the repository
 ```bash
-git clone <repository_link>
-cd <repository_directory>
+git clone https://github.com/Percy-Ikana/HAI_Challenge
+cd HAI_Challenge
 ```
 - Ensure that `input.xml` contains the desired XML data.
 - Modify `config.json` if you want to change the mappings.
