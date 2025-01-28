@@ -20,7 +20,12 @@ the structure of the config map is a list of JSON objects with the following fie
 
 `xml_fields`: a list `[]` of `strings` containing the XML fields that are used for this JSON field.
 
-`transform`:  a `string` that denotes what transform function to use to determine the final JSON value, this must exist within the `switch` contained within `transform`, at present, only `concat_strings`, `to_int`, `age_from_dob`, and `""` (no transform) are supported without modification. Invalid transformations will default to `""`. 
+`transform`:  a `string` that denotes what transform function to use to determine the final JSON value, this must exist within the `switch` contained within `transform`, at present, only the following are supported:
+  `concat_strings`, 
+  `to_int`, 
+  `age_from_dob`, 
+  `""` (no transform, the JSON value will just equal the first value `xml_fields` without modification) are supported without modification. 
+Invalid transformations will default to `""`. 
 
 `children`: an optional list of any children this element should have, children use the same 
 
